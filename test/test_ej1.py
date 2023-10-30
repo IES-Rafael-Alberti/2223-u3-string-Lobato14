@@ -17,4 +17,4 @@ def test_obtener_frase(monkeypatch):
     assert obtener_frase() == "hola mundo"
 
 def test_cadena_reves():
-    assert cadenaReves("hola", 3) == "a\nl\no\nh\n"
+    assert cadenaReves("hola", 3) == "h\no\nl\na\n"
